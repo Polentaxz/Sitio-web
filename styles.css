@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+#profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #333; /* Cambia el color del texto de los enlaces */
+    font-size: 18px; /* Ajusta el tamaño de la fuente de los enlaces */
+    font-weight: bold; /* Ajusta el grosor de la fuente */
+    transition: color 0.3s ease; /* Agrega una transición de color suave */
+}
+
+a:hover {
+    color: #007BFF; /* Cambia el color al pasar el mouse sobre los enlaces */
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 10px;
+    }
+}
